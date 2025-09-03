@@ -3,8 +3,7 @@
     "cpus": 2
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "rfbrowser init",
+  "updateContentCommand": "python3 -m pip install -r requirements.txt && rfbrowser init",
   "customizations": {
     "codespaces": {
       "openFiles": []
