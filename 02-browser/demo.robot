@@ -1,5 +1,5 @@
 *** Settings ***
-Library    Browser    enable_presenter_mode=${True}
+Library    Browser
 
 Documentation    Browser Library Documentation:
 ...              https://marketsquare.github.io/robotframework-browser/Browser.html

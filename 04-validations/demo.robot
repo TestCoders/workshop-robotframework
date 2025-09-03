@@ -20,7 +20,7 @@ ${START_GAME_BUTTON}    //button[text()="Start!"]
 Verify Start Of The Game
     Start TestRPG
     Start Playing
-    Prepare And Start Game    name=z    build=mage
+    Prepare And Start Game    name=Ed    build=mage
     Close TestRPG
 
 

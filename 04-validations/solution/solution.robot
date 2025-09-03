@@ -30,8 +30,8 @@ Verify Start Of The Game Valid Name
 Verify Start Of The Game Invalid Name
     Start TestRPG
     Start Playing
-    Prepare And Start Game    name=p    build=mage
-    Validate The Game Started    expected_name=p    expected_stats=A level 1 mage
+    Prepare And Start Game    name=Ed    build=mage
+    Validate The Game Started    expected_name=Ed    expected_stats=A level 1 mage
     Close TestRPG
 
 
