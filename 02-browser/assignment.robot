@@ -10,11 +10,9 @@ Documentation    Browser Library Documentation:
 ${URL}    https://test-rpg.vercel.app/
 
 # Locators
-${CLICK_HERE_TO_PLAY}    //a[text()="Click here to play"]
+${CLICK_HERE_TO_PLAY_BUTTON}    //a[text()="Click here to play"]
 ${CHARACTER_NAME_INPUT}    //input[@name="name"]
-${DROPDOWN_SELECT_BOX}    //button[@role="combobox"]
-${DROPDOWN_SELECT_WINDOW}    //div[@role="presentation"]
-${DROPDOWN_SELECT_OPTION}    //div[@role="option"][text()="{value}"]
+${BUILD_SELECT}    //select
 ${START_GAME_BUTTON}    //button[text()="Start!"]
 
 
